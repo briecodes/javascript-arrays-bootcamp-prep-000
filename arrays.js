@@ -35,5 +35,5 @@ function removeElementFromBeginningOfArray(array){
   // newArray.shift();
   // console.log(`cool now updated new array: ${newArray}`);
   // return newArray;
-  return array.slice(-1);
+  return array.slice();
 }
